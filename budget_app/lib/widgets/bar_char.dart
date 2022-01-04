@@ -15,7 +15,7 @@ class BarChar extends StatelessWidget {
     }
 
     return Padding(
-      padding: const EdgeInsets.all(15.0),
+      padding: const EdgeInsets.all(10.0),
       child: Column(
         children: [
           Text(
@@ -38,7 +38,7 @@ class BarChar extends StatelessWidget {
                 iconSize: 30.0,
               ),
               Text(
-                'Des 20.2021 - Des 30,2021',
+                'Des 20.2021-Des 30,2021',
                 style: TextStyle(
                   fontSize: 18.0,
                   fontWeight: FontWeight.w600,
